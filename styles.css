@@ -363,3 +363,45 @@ body {
         padding: 30px 15px;
     }
 }
+
+/* Experience */
+.experience-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.exp-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+
+.exp-card .org {
+    color: var(--accent-light) !important;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.exp-card .year {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+
+.exp-points {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.exp-points li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.exp-points li:last-child {
+    margin-bottom: 0;
+}
