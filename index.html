@@ -7,99 +7,127 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Compact Header -->
-    <header class="header">
-        <div class="header-left">
-            <h1 class="header-name">Muhammad Faizan Tariq</h1>
-            <p class="header-role">Data Scientist & ML Engineer</p>
-            <p class="header-summary">MSc Data Science and Analytics. Building intelligent solutions with Python, ML, and cloud platforms.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="greeting">Hi, I am</span>
+                <span class="name">Muhammad Faizan Tariq</span>
+            </h1>
+            <h2 class="hero-subtitle">
+                <span class="highlight">Data Scientist</span> & <span class="highlight">ML Engineer</span>
+            </h2>
+            <p class="hero-para">
+                MSc Data Science and Analytics. Building intelligent solutions with Python, machine learning, and cloud platforms.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="cv_muhammad_faizan_tariq.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+            </div>
+            <div class="hero-links">
+                <a href="https://github.com/m-faizan-tariq" target="_blank" class="social-btn">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-faizan-tariq/" target="_blank" class="social-btn">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:faizantariq44444@gmail.com" class="social-btn">
+                    <span>Email</span>
+                </a>
+            </div>
         </div>
-        <div class="header-right">
-            <a href="https://github.com/m-faizan-tariq" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/muhammad-faizan-tariq/" target="_blank">LinkedIn</a>
-            <a href="mailto:faizantariq44444@gmail.com">Email</a>
-            <a href="cv_muhammad_faizan_tariq.pdf" target="_blank">CV</a>
-        </div>
-    </header>
+    </section>
 
-    <!-- Main Grid -->
-    <main class="grid">
+    <!-- Main Content -->
+    <main class="container">
         
-        <!-- Profile/About -->
-        <section class="card">
-            <h2 class="card-title">Profile</h2>
-            <div class="card-body">
-                <p>
-                    Data Scientist with an MSc in Data Science and Analytics and strong background in machine learning and AI. 
-                    Experienced in Python, SQL, and cloud platforms with hands-on expertise in ETL pipelines, data visualization, 
-                    and predictive modeling.
-                </p>
+        <!-- Profile Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="card">
+                <div class="card-content">
+                    <p>
+                        Data Scientist with an MSc in Data Science and Analytics and strong background in machine learning and AI. 
+                        Experienced in Python, SQL, and cloud platforms with hands-on expertise in ETL pipelines, data visualization, 
+                        and predictive modeling.
+                    </p>
+                </div>
             </div>
         </section>
 
-        <!-- Key Projects -->
-        <section class="card projects">
-            <h2 class="card-title">Key Projects</h2>
-            <div class="card-body">
-                <div class="project">
-                    <h3>London House Price Prediction</h3>
-                    <p>ML and deep learning models predicting London house prices using HM Land Registry and EPC data. XGBoost achieved R2 of 0.83.</p>
-                    <p class="tech">Python, XGBoost, TensorFlow, Gradio</p>
-                    <div class="links">
-                        <a href="https://github.com/m-faizan-tariq/london-house-price-prediction" target="_blank">GitHub</a>
-                        <a href="https://m-faizan-tariq.github.io/london-house-price-prediction/" target="_blank">Demo</a>
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <div class="card-content">
+                        <h3 class="project-title">London House Price Prediction</h3>
+                        <p>ML and deep learning models predicting London house prices using HM Land Registry and EPC data. XGBoost achieved R2 of 0.83.</p>
+                        <p class="tech-stack">Python, XGBoost, TensorFlow, Gradio</p>
+                        <div class="project-links">
+                            <a href="https://github.com/m-faizan-tariq/london-house-price-prediction" target="_blank">Code</a>
+                            <a href="https://m-faizan-tariq.github.io/london-house-price-prediction/" target="_blank">Demo</a>
+                        </div>
                     </div>
                 </div>
-                <div class="project">
-                    <h3>Data Cleaning and EDA Case Study</h3>
-                    <p>Comprehensive data cleaning and EDA on large datasets. Interactive dashboards for business insights.</p>
-                    <p class="tech">Python, Pandas, Power BI</p>
+                <div class="card project-card">
+                    <div class="card-content">
+                        <h3 class="project-title">Data Cleaning and EDA Case Study</h3>
+                        <p>Comprehensive data cleaning and EDA on large datasets. Interactive dashboards for business insights.</p>
+                        <p class="tech-stack">Python, Pandas, Power BI</p>
+                    </div>
                 </div>
-                <div class="project">
-                    <h3>Automation & OpenClaw Pipelines</h3>
-                    <p>Automated data processing pipelines with scheduled jobs for email classification.</p>
-                    <p class="tech">Python, OpenClaw, Cron</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Education -->
-        <section class="card">
-            <h2 class="card-title">Education</h2>
-            <div class="card-body">
-                <div class="edu">
-                    <h3>MSc Data Science and Analytics</h3>
-                    <p class="org">University of Hertfordshire, UK</p>
-                    <p class="year">2024 - 2025</p>
-                </div>
-                <div class="edu">
-                    <h3>BEng Electrical Engineering</h3>
-                    <p class="org">NUST, Islamabad, Pakistan</p>
-                    <p class="details">CGPA: 3.23 / 4</p>
-                    <p class="year">2012 - 2016</p>
+                <div class="card project-card">
+                    <div class="card-content">
+                        <h3 class="project-title">Automation & OpenClaw Pipelines</h3>
+                        <p>Automated data processing pipelines with scheduled jobs for email classification.</p>
+                        <p class="tech-stack">Python, OpenClaw, Cron</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills -->
-        <section class="card">
-            <h2 class="card-title">Skills</h2>
-            <div class="card-body">
-                <div class="skill-row">
-                    <span class="skill-label">Programming</span>
-                    <span class="skill-value">Python, SQL, C, C++</span>
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-list">
+                <div class="card edu-card">
+                    <div class="card-content">
+                        <h3>MSc Data Science and Analytics</h3>
+                        <p class="org">University of Hertfordshire, UK</p>
+                        <p class="year">2024 - 2025</p>
+                    </div>
                 </div>
-                <div class="skill-row">
-                    <span class="skill-label">Data Science</span>
-                    <span class="skill-value">Pandas, NumPy, Scikit Learn, TensorFlow, XGBoost</span>
+                <div class="card edu-card">
+                    <div class="card-content">
+                        <h3>BEng Electrical Engineering</h3>
+                        <p class="org">NUST, Islamabad, Pakistan</p>
+                        <p class="details">CGPA: 3.23 / 4</p>
+                        <p class="year">2012 - 2016</p>
+                    </div>
                 </div>
-                <div class="skill-row">
-                    <span class="skill-label">Visualization</span>
-                    <span class="skill-value">Power BI, Matplotlib, Seaborn, SSRS</span>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="card skill-card">
+                    <h3 class="skill-title">Programming</h3>
+                    <p class="skill-list">Python, SQL, C, C++</p>
                 </div>
-                <div class="skill-row">
-                    <span class="skill-label">Cloud & Tools</span>
-                    <span class="skill-value">Azure, SSIS, Azure SQL, GitHub</span>
+                <div class="card skill-card">
+                    <h3 class="skill-title">Data Science & ML</h3>
+                    <p class="skill-list">Pandas, NumPy, Scikit Learn, TensorFlow, XGBoost</p>
+                </div>
+                <div class="card skill-card">
+                    <h3 class="skill-title">Visualization</h3>
+                    <p class="skill-list">Power BI, Matplotlib, Seaborn, SSRS</p>
+                </div>
+                <div class="card skill-card">
+                    <h3 class="skill-title">Cloud & Tools</h3>
+                    <p class="skill-list">Azure, SSIS, Azure SQL, GitHub</p>
                 </div>
             </div>
         </section>
