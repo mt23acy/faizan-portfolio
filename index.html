@@ -5,249 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Faizan Tariq - Data Scientist & ML Engineer</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="greeting">Hi, I am <span class="name">Muhammad Faizan Tariq</span></h1>
-            <h2 class="subtitle">A <span class="highlight">Data Scientist & ML Engineer</span> building intelligent solutions</h2>
-            <p class="intro">
-                Passionate about machine learning, data analytics, and building AI-powered applications. 
-                With an MSc in Data Science and Analytics and hands-on experience in Python, ML, and cloud platforms, 
-                I transform complex data into actionable insights.
-            </p>
-            <div class="hero-btns">
-                <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="cv_muhammad_faizan_tariq.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="header-name">
+                <h1>Muhammad Faizan Tariq</h1>
+                <p class="header-role">Data Scientist & ML Engineer</p>
             </div>
-            <div class="social-links">
-                <a href="https://github.com/m-faizan-tariq" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/muhammad-faizan-tariq/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:faizantariq44444@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            <div class="header-links">
+                <a href="https://github.com/m-faizan-tariq" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/muhammad-faizan-tariq/" target="_blank">LinkedIn</a>
+                <a href="mailto:faizantariq44444@gmail.com">Email</a>
+                <a href="cv_muhammad_faizan_tariq.pdf" target="_blank">CV</a>
             </div>
         </div>
-        <div class="hero-image">
-            <div class="profile-placeholder">
-                <i class="fas fa-user"></i>
-            </div>
-        </div>
-    </section>
+    </header>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
-        <div class="container">
-            <h2 class="section-title">Tech Stack & Skills</h2>
-            <p class="section-subtitle">Technologies I work with</p>
-            
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">C++</span>
-                    </div>
+    <!-- Main Content -->
+    <main class="main-container">
+        
+        <!-- Left Column -->
+        <div class="column-left">
+            <!-- About Card -->
+            <section class="card about-card">
+                <h2 class="card-title">About</h2>
+                <div class="card-content">
+                    <p>
+                        Data Scientist with an MSc in Data Science and Analytics and a strong background in machine learning and AI. 
+                        Experienced in Python, SQL, and cloud platforms with hands-on expertise in ETL pipelines, data visualization, 
+                        and predictive modeling. Passionate about transforming complex datasets into actionable insights.
+                    </p>
                 </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> Data Science & ML</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">Scikit Learn</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">XGBoost</span>
-                        <span class="skill-tag">Keras</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-chart-bar"></i> Visualization</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Power BI</span>
-                        <span class="skill-tag">Matplotlib</span>
-                        <span class="skill-tag">Seaborn</span>
-                        <span class="skill-tag">SSRS</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud & ETL</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Microsoft Azure</span>
-                        <span class="skill-tag">SSIS</span>
-                        <span class="skill-tag">Azure SQL</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">Jupyter</span>
-                        <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">MATLAB</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag certification">Microsoft Azure AI-900</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <p class="section-subtitle">Things I have built</p>
-            
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">London House Price Prediction</h3>
-                        <p class="project-description">
-                            Machine learning and deep learning models to predict London house prices using HM Land Registry and EPC data. 
-                            XGBoost achieved R2 of 0.83, outperforming all other approaches including deep learning methods.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">XGBoost</span>
-                            <span class="tech-badge">TensorFlow</span>
-                            <span class="tech-badge">Gradio</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/m-faizan-tariq/london-house-price-prediction" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="https://m-faizan-tariq.github.io/london-house-price-prediction/" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Data Cleaning and EDA Case Study</h3>
-                        <p class="project-description">
-                            Comprehensive data cleaning and exploratory data analysis on large-scale datasets. 
-                            Performed outlier handling, feature engineering, and created interactive dashboards for business insights.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">Pandas</span>
-                            <span class="tech-badge">Power BI</span>
-                            <span class="tech-badge">Seaborn</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/m-faizan-tariq" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Automation & OpenClaw Pipelines</h3>
-                        <p class="project-description">
-                            Built automated data processing pipelines using OpenClaw and custom scripts. 
-                            Implemented scheduled jobs for email classification and intelligent task orchestration.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">OpenClaw</span>
-                            <span class="tech-badge">Cron</span>
-                            <span class="tech-badge">APIs</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/m-faizan-tariq" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="education-section">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            
-            <div class="education-timeline">
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="education-content">
+            <!-- Education Card -->
+            <section class="card education-card">
+                <h2 class="card-title">Education</h2>
+                <div class="card-content">
+                    <div class="edu-item">
                         <h3>MSc Data Science and Analytics</h3>
-                        <p class="education-school">University of Hertfordshire, United Kingdom</p>
-                        <p class="education-year">2024 - 2025</p>
+                        <p class="edu-school">University of Hertfordshire, UK</p>
+                        <p class="edu-year">2024 - 2025</p>
+                    </div>
+                    <div class="edu-item">
+                        <h3>BEng Electrical Engineering</h3>
+                        <p class="edu-school">NUST, Islamabad, Pakistan</p>
+                        <p class="edu-details">CGPA: 3.23 / 4</p>
+                        <p class="edu-year">2012 - 2016</p>
                     </div>
                 </div>
-                
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>Bachelor of Electrical Engineering</h3>
-                        <p class="education-school">NUST, Islamabad, Pakistan</p>
-                        <p class="education-details">CGPA: 3.23 / 4</p>
-                        <p class="education-year">2012 - 2016</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-subtitle">Feel free to reach out</p>
-            
-            <div class="contact-content">
-                <p>
-                    I am always open to discussing new projects, data science opportunities, 
-                    or partnerships. Let's build something great together.
-                </p>
-                <a href="mailto:faizantariq44444@gmail.com" class="btn btn-primary">Say Hello</a>
-            </div>
-            
-            <div class="contact-socials">
-                <a href="https://github.com/m-faizan-tariq" target="_blank" class="contact-social">
-                    <i class="fab fa-github"></i>
-                    <span>GitHub</span>
-                </a>
-                <a href="https://www.linkedin.com/in/muhammad-faizan-tariq/" target="_blank" class="contact-social">
-                    <i class="fab fa-linkedin"></i>
-                    <span>LinkedIn</span>
-                </a>
-                <a href="mailto:faizantariq44444@gmail.com" class="contact-social">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email</span>
-                </a>
-            </div>
+            <!-- Skills Card -->
+            <section class="card skills-card">
+                <h2 class="card-title">Skills</h2>
+                <div class="card-content">
+                    <div class="skill-group">
+                        <h4>Programming</h4>
+                        <p>Python, SQL, C, C++</p>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Data Science & ML</h4>
+                        <p>Pandas, NumPy, Scikit Learn, TensorFlow, XGBoost, Keras</p>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Visualization</h4>
+                        <p>Power BI, Matplotlib, Seaborn, SSRS</p>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Cloud & Tools</h4>
+                        <p>Microsoft Azure, SSIS, Azure SQL, VS Code, Jupyter, GitHub</p>
+                    </div>
+                </div>
+            </section>
         </div>
-    </section>
+
+        <!-- Right Column -->
+        <div class="column-right">
+            <!-- Projects Card -->
+            <section class="card projects-card">
+                <h2 class="card-title">Key Projects</h2>
+                <div class="card-content">
+                    <!-- Project 1 -->
+                    <div class="project-item">
+                        <h3>London House Price Prediction</h3>
+                        <p>
+                            ML and deep learning models predicting London house prices using HM Land Registry and EPC data. 
+                            XGBoost achieved R2 of 0.83, outperforming deep learning approaches.
+                        </p>
+                        <p class="project-tech">Python, XGBoost, TensorFlow, Gradio</p>
+                        <div class="project-links">
+                            <a href="https://github.com/m-faizan-tariq/london-house-price-prediction" target="_blank">GitHub</a>
+                            <a href="https://m-faizan-tariq.github.io/london-house-price-prediction/" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-item">
+                        <h3>Data Cleaning and EDA Case Study</h3>
+                        <p>
+                            Comprehensive data cleaning and exploratory data analysis on large-scale datasets. 
+                            Created interactive dashboards for business insights.
+                        </p>
+                        <p class="project-tech">Python, Pandas, Power BI, Seaborn</p>
+                        <div class="project-links">
+                            <a href="https://github.com/m-faizan-tariq" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-item">
+                        <h3>Automation & OpenClaw Pipelines</h3>
+                        <p>
+                            Built automated data processing pipelines using OpenClaw and custom scripts. 
+                            Implemented scheduled jobs for email classification.
+                        </p>
+                        <p class="project-tech">Python, OpenClaw, Cron, APIs</p>
+                        <div class="project-links">
+                            <a href="https://github.com/m-faizan-tariq" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Card -->
+            <section class="card contact-card">
+                <h2 class="card-title">Contact</h2>
+                <div class="card-content">
+                    <div class="contact-links">
+                        <a href="https://github.com/m-faizan-tariq" target="_blank" class="contact-link">
+                            <span class="contact-icon">GH</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammad-faizan-tariq/" target="_blank" class="contact-link">
+                            <span class="contact-icon">IN</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:faizantariq44444@gmail.com" class="contact-link">
+                            <span class="contact-icon">@</span>
+                            <span>Email</span>
+                        </a>
+                        <a href="cv_muhammad_faizan_tariq.pdf" target="_blank" class="contact-link">
+                            <span class="contact-icon">CV</span>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
 
     <!-- Footer -->
-    <footer>
-        <p>Built by Muhammad Faizan Tariq</p>
+    <footer class="site-footer">
+        <p>Muhammad Faizan Tariq</p>
     </footer>
 </body>
 </html>
